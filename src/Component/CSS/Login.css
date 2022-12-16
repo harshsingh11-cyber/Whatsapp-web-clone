@@ -1,0 +1,31 @@
+
+.login__wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login{
+    width: 400px;
+    background-color: rgb(223,223,223);
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.login img{
+    width: 150px;
+}
+
+.login h2{
+    margin: 20px 0px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login button{
+    background-color: #32ac42;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
